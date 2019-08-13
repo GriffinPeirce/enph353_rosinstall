@@ -1,5 +1,5 @@
 # enph353.rosinstall
-- setup-file: {local-name: /opt/ros/melodic/setup.sh}
+- setup-file: {local-name: /opt/ros/$ROS_VERSION/setup.sh}
 
 # main repos
 - git: {local-name: enph353_rosinstall, uri: 'https://github.com/GriffinPeirce/enph353_rosinstall.git', version: master}
