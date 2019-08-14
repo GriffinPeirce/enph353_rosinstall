@@ -1,14 +1,14 @@
 # enph353.rosinstall
-- setup-file: {local-name: /opt/ros/$ROS_VERSION/setup.sh}
+- setup-file: {local-name: /opt/ros/melodic/setup.sh}
 
 # main repos
 - git: {local-name: enph353_rosinstall, uri: 'https://github.com/GriffinPeirce/enph353_rosinstall.git', version: master}
 - git: {local-name: enph_ai, uri: 'https://github.com/GriffinPeirce/enph_ai.git', version: master}
 
 # drivers
-- git: {local-name: adeept_car_a_ros_driver, uri: 'https://github.com/GriffinPeirce/adeept_car_a_ros_driver.git', version: master}
+- git: {local-name: adeept_awr_ros_driver, uri: 'https://github.com/GriffinPeirce/adeept_awr_ros_driver.git', version: master}
 
 # simulator
-- git: {local-name: adeept_car_description, uri: 'https://github.com/GriffinPeirce/adeept_car_description.git', version: master}
+- git: {local-name: adeept_awr_description, uri: 'https://github.com/GriffinPeirce/adeept_awr_description.git', version: master}
 - git: {local-name: enph353_gazebo, uri: 'https://github.com/GriffinPeirce/enph353_gazebo.git', version: master}
-- git: {local-name: adeept_car_gazebo, uri: 'https://github.com/GriffinPeirce/adeept_car_gazebo.git', version: master}
+- git: {local-name: adeept_awr_gazebo, uri: 'https://github.com/GriffinPeirce/adeept_awr_gazebo.git', version: master}
